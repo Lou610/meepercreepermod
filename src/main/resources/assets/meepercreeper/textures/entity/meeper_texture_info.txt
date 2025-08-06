@@ -1,0 +1,21 @@
+MEEPER ENTITY TEXTURE REQUIREMENTS:
+
+File name: meeper.png
+Dimensions: 64x32 pixels
+Format: PNG with transparency
+
+The texture should be laid out as follows:
+- Head: 8x8x6 cuboid starting at UV (0,0)
+- Body: 12x18x10 cuboid starting at UV (18,4)  
+- Legs: 4x12x4 cuboids starting at UV (0,16)
+
+Colors suggested:
+- Primary: Green/teal (#7e9680)
+- Secondary: Light green (#c5d1c5)
+
+You'll need to create this texture file using an image editor like:
+- Blockbench (recommended for Minecraft entity textures)
+- GIMP, Photoshop, or similar image editor
+- Paint.NET with appropriate plugins
+
+Place the finished texture as: meeper.png in this directory.
