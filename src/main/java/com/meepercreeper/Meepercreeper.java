@@ -1,5 +1,7 @@
 package com.meepercreeper;
 
+import com.meepercreeper.entity.ModEntities;
+import com.meepercreeper.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,5 +22,11 @@ public class Meepercreeper implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		
+		// Register entities
+		ModEntities.registerEntities();
+		
+		// Register items
+		ModItems.registerModItems();
 	}
 }
