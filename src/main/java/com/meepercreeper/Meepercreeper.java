@@ -19,6 +19,8 @@ public class Meepercreeper implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("🎉 Simple mod initialized successfully!");
+		LOGGER.info("This is a basic Fabric mod that demonstrates mod development.");
+		LOGGER.info("You can extend this mod to add custom items, blocks, entities, and more!");
 	}
 }
